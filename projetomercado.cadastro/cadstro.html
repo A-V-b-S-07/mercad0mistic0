@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    
+<header >
+    <section  id="section1">
+        <div >
+
+            <section  id="section2" style="display: flex; justify-content: space-around;" >
+                
+                <img class="logo" src="./assets/Enchanted-removebg-preview.png" alt="">
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <div style="display: flex;">
+                        <img class="menu" src="./assets/menu-removebg-preview.png"  alt="">
+                        <div id="div1" style="display: none;">
+                            <span id="fechar-modal" >&times;</span>
+                            <a href="/mercado/projetomercado/index.html"><p class="p" >Início</p></a>
+                            <a href="/mercado/projeto.mercado.carrinho/index.html"><p class="p">Carrinho</p></a>
+                            <p class="p">Contatos</p>
+                            <a href="/mercado/projetomercado.produtos/index.html"><p class="p" >Catálogo</p></a>
+                            <a href="/mercado/projetomercado.cadastro/cadstro.html"><p class="p">Cadastro produtos</p></a>
+                            
+                        </div>
+                    </div>
+
+                    
+                
+                
+            </section>
+            
+        </div>
+    </section>
+</header>
+    <div style="display: flex; justify-content: center;">
+
+    <hr>
+    </div>
+
+    <section id="sec1">
+        <div class="product-title"><input type="text" id="nome_produtos" placeholder="nome"></div>
+        <div class="product-title"><input type="text" id="preco" placeholder="preço"></div>
+        <div class="product-title"><input type="number" id="quantidade" placeholder="quantidade"></div>
+        <div class="product-title"><button onclick="cadastrar(event)">cadastrar</button></div>
+    </section>
+    
+
+    <script src="cadastro.js"></script>
+</body>
+</html>
